@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transformers.js | Sample Browser Extension</title>
+    <link rel="stylesheet" href="popup.css" />
+  <script defer src="background.js"></script><script defer src="popup.js"></script><script defer src="content.js"></script></head>
+
+  <body>
+    <div id="app">
+      <div class="app-container">
+        <div class="header">
+          <div class="logo-wrapper">
+            <img src="./logo.png" alt="" />
+          </div>
+          <a class="bookmark" href="options.html" id="bookmark" target="_blank">
+            Show me my bookmarks
+            <svg width="18" height="18" viewBox="0 0 24 24">
+              <path
+                vector-effect="non-scaling-stroke"
+                d="M18.25 15.5a.75.75 0 0 0 .75-.75v-9a.75.75 0 0 0-.75-.75h-9a.75.75 0 0 0 0 1.5h7.19L6.22 16.72a.75.75 0 1 0 1.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <div class="input-wrapper">
+          <div class="tags-wrapper">
+            <label for="tags">tags</label>
+            <div id="tags-input-wrapper">
+              <div id="created-tags-wrapper"></div>
+              <input type="text" id="tags" autofocus />
+            </div>
+          </div>
+          <div class="describe-wrapper">
+            <textarea
+              id="describe"
+              name=""
+              placeholder="describe this bookmark ..."
+              rows="2"
+            ></textarea>
+            <img src="./ai.png" alt="" class="ai-logo" />
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <button id="mark-it">Mark It</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

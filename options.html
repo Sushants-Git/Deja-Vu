@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="popup.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insperato</title>
+  </head>
+
+  <body>
+    <div class="options-container">
+      <div class="options-inner-container">
+        <div class="options-describe-wrapper">
+          <textarea
+            autofocus
+            id="options-describe"
+            name=""
+            placeholder="describe what you are looking for ..."
+            rows="1"
+          ></textarea>
+        </div>
+        <div class="options-tags-wrapper">
+          <input type="text" id="options-tags" placeholder="tags" />
+        </div>
+        <div id="options-created-tags-wrapper"></div>
+        <div class="search-button-wrapper">
+          <button id="search-button">Search</button>
+        </div>
+        <hr class="first-hr" />
+        <div class="options-bookmarks">
+          <div class="grid">
+            <div class="titles">
+              <div class="hash" id="hash">#</div>
+              <div>Icon</div>
+              <div>Title</div>
+              <div>Tags</div>
+              <div>Describe</div>
+              <div>Link</div>
+            </div>
+            <hr />
+            <div id="bookmark-table-content">
+              <div class="titles-content">
+                <div class="hash" id="num">1</div>
+                <div class="favicon" id="favicon">
+                  <img src="https://huggingface.co/favicon.ico" />
+                </div>
+                <div>Grid - Lean Web Development</div>
+                <div>HuggingFace , SentenceSimilarity</div>
+                <div>
+                  This is a page which talks about the Sentence Similarity model
+                  of HuggingFace
+                </div>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/options.js"></script>
+  </body>
+</html>
