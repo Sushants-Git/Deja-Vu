@@ -23,8 +23,16 @@
           <input type="text" id="options-tags" placeholder="tags" />
         </div>
         <div id="options-created-tags-wrapper"></div>
-        <div class="search-button-wrapper">
-          <button id="search-button">Search</button>
+        <div class="options-button-wrapper">
+          <div class="search-button-wrapper">
+            <button id="search-button">Search</button>
+          </div>
+          <div class="edit-button-wrapper">
+            <button id="edit-button">Edit Bookmarks</button>
+          </div>
+          <div id="edit-message-wrapper">
+            Click on Any Bookmark to delete it
+          </div>
         </div>
         <hr class="first-hr" />
         <div class="options-bookmarks">
@@ -38,23 +46,24 @@
               <div>Link</div>
             </div>
             <hr />
-            <div id="bookmark-table-content">
-              <div class="titles-content">
-                <div class="hash" id="num">1</div>
-                <div class="favicon" id="favicon">
-                  <img src="https://huggingface.co/favicon.ico" />
-                </div>
-                <div>Grid - Lean Web Development</div>
-                <div>HuggingFace , SentenceSimilarity</div>
-                <div>
-                  This is a page which talks about the Sentence Similarity model
-                  of HuggingFace
-                </div>
-              </div>
-              <hr />
-            </div>
+            <div id="bookmark-table-content"></div>
           </div>
         </div>
+        <footer class="footer">
+          <hr class="footer-first-hr" />
+          <p># 2023 Deja Vu</p>
+          <div class="socials-wrapper-footer">
+            <a href="https://github.com/Sushants-Git" target="_blank">
+              <img src="./Github.png" alt="Github" />
+            </a>
+            <a href="https://twitter.com/sushantstwt" target="_blank">
+              <img src="./Twitter.png" alt="Twitter" />
+            </a>
+            <a href="https://www.linkedin.com/in/sushants-li/" target="_blank">
+              <img src="./Linkedin.png" alt="Linkedin" />
+            </a>
+          </div>
+        </footer>
       </div>
     </div>
     <script type="module" src="/options.js"></script>
