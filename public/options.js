@@ -1,4 +1,4 @@
-console.log("New updated version Runnign");
+// console.log("New updated version Runnign");
 
 loadBookmarks();
 
@@ -17,7 +17,10 @@ const optionsCreatedTagsWrapper = document.getElementById(
 
 async function loadBookmarks() {
   await chrome.storage.local.get(["bookmarks"]).then((result) => {
-    if (!result.bookmarks) return;
+    if (!result.bookmarks) {
+      tableWrapper.innerHTML = `<div class="no-bookmark-message"><span>No Bookmarks Yet</span></div>`;
+      return;
+    }
     let temp = JSON.parse(result.bookmarks);
     if (temp) {
       temp = temp.map((bookmark) => ({
@@ -28,7 +31,7 @@ async function loadBookmarks() {
       choosenBookmarks = bookmarks;
     }
     renderTable();
-    console.log(temp);
+    // console.log(temp);
   });
 }
 
@@ -95,10 +98,14 @@ function generateCustomUUID() {
 }
 
 document.getElementById("search-button").addEventListener("click", function () {
-  if (describeEl.value.trim() === "" && tagsEl.value.trim() === "") {
+  if (
+    describeEl.value.trim() === "" &&
+    tagsEl.value.trim() === "" &&
+    tagsArray.length === 0
+  ) {
     return;
   }
-  if (describeEl.value.trim() === "") {
+  if (describeEl.value.trim() === "" || tagsArray.length !== 0) {
     searchByTags();
   } else {
     ask(describeEl.value);
@@ -126,10 +133,10 @@ document
   });
 
 async function deleteBookmark(id) {
-  console.log(id);
+  // console.log(id);
   let temp = [];
   choosenBookmarks.map((bookmark) => {
-    console.log(bookmark.id);
+    // console.log(bookmark.id);
     if (bookmark.id !== id) {
       temp.push(bookmark);
     }
@@ -190,7 +197,7 @@ const threeDotSVG = `<svg width="120" height="30" viewBox="0 0 120 30" xmlns="ht
 function ask(question) {
   tableWrapper.innerHTML = `
   <div class="loading-bookmark-message">${threeDotSVG}</div>
-  <div class="loading-message">If the search is taking too long it's probably because of the model.</div>
+  <div class="loading-message">If the search is taking longer than usual, it's likely due to the model downloading.</div>
   <div class="loading-message">Nothing to worry about the model is small and just needs to be loaded once.</div>`;
   choosenBookmarksListObj = new ChoosenBookmarksList();
   bookmarks.map(async (bookmark, index) => {
@@ -238,7 +245,7 @@ function searchByTags() {
     choosenBookmarks = bookmarks;
   }
   renderTable();
-  console.log(temp);
+  // console.log(temp);
 }
 
 function renderTable() {
@@ -333,17 +340,17 @@ class ChoosenBookmarksList {
       this.tail = this.tail.prev;
       this.tail.next = null;
       this.length -= 1;
-      console.log("ran");
+      // console.log("ran");
     }
   }
 
   printList() {
     let pointer = this.head;
     while (pointer !== null) {
-      console.log({ ...pointer });
+      // console.log({ ...pointer });
       pointer = pointer.next;
     }
-    console.log("EOL");
+    // console.log("EOL");
   }
 
   renderList() {

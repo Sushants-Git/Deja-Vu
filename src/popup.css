@@ -252,7 +252,6 @@ input {
 .dotted-line {
   width: 100vw;
   height: 10px;
-  background-color: red;
 }
 
 .first-hr {
@@ -299,6 +298,11 @@ input {
   border-right: 1px solid #282828;
   display: flex;
   padding-left: 9px;
+}
+
+.titles-content div:nth-child(5) {
+  padding-right: 10px;
+  word-break: break-all;
 }
 
 .favicon img {
@@ -419,14 +423,10 @@ input:disabled,
 /*--- Footer ---*/
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
   margin: auto;
   font-family: "Space Grotesk", sans-serif;
   color: rgba(255, 255, 255, 0.721);
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-size: 1rem;
   padding-bottom: 1rem;
   text-align: center;
@@ -466,7 +466,7 @@ input:disabled,
   width: 30px;
 }
 
-.loading-message{
+.loading-message {
   text-align: center;
   font-size: 1rem;
   padding-top: 0.5rem;
