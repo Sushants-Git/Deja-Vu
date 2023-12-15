@@ -8,8 +8,17 @@ A Chrome Extension which offers a seamless way to find bookmarks.
 https://github.com/Sushants-Git/Deja-Vu/assets/100516354/2e71d2c3-eb64-47e1-862a-c70b73c1d6cf
 
 
+## Installation
 
-## Getting Started
+1. Clone the build repo:
+   ```bash
+   git clone https://github.com/Sushants-Git/Deja-Vu-Installation-Files.git
+   ```
+   or Download the files from [Deja-Vu-Installation-Files](https://github.com/Sushants-Git/Deja-Vu-Installation-Files) by going to Code > Download ZIP and then Unzip them
+
+2. Go to `chrome://extensions/`, enable developer mode (top right), and click "Load unpacked". Select the Downloaded File from the dialog which appears and click "Select Folder".
+
+## Running the Project
 
 1. Clone the repo and enter the project directory:
    ```bash
