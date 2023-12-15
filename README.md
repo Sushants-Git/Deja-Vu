@@ -19,7 +19,7 @@ https://github.com/Sushants-Git/Deja-Vu/assets/100516354/2e71d2c3-eb64-47e1-862a
    
    Download the zip file from [Deja-Vu-Installation-Files](https://github.com/Sushants-Git/Deja-Vu-Installation-Files) (by going to the link and then to "Code" > "Download ZIP file") and then unzip/extract it using any tool like [WinRAR](https://www.win-rar.com/start.html?&L=0).
 
-2. Go to `chrome://extensions/`, enable developer mode (top right), and click "Load unpacked". Select the Downloaded File from the dialog which appears and click "Select Folder".
+2. Go to `chrome://extensions/`, enable developer mode (top right), and click "Load unpacked". Select the cloned/extracted File from the dialog which appears and click "Select Folder".
 
 ## Running the Project
 
