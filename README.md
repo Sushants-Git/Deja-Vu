@@ -2,6 +2,13 @@
 
 A Chrome Extension which offers a seamless way to find bookmakrs.
 
+## How it works
+
+
+https://github.com/Sushants-Git/Deja-Vu/assets/100516354/2e71d2c3-eb64-47e1-862a-c70b73c1d6cf
+
+
+
 ## Getting Started
 
 1. Clone the repo and enter the project directory:
