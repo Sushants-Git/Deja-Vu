@@ -10,18 +10,39 @@ https://github.com/Sushants-Git/Deja-Vu/assets/100516354/2e71d2c3-eb64-47e1-862a
 
 ## Installation
 
-1. Clone the build repo:
-   ```bash
-   git clone https://github.com/Sushants-Git/Deja-Vu-Installation-Files.git
-   ```
-   
-   or
-   
-   Download the zip file from [Deja-Vu-Installation-Files](https://github.com/Sushants-Git/Deja-Vu-Installation-Files) (by going to the link and then to "Code" > "Download ZIP file") and then unzip/extract it using any tool like [WinRAR](https://www.win-rar.com/start.html?&L=0).
+1. Clone the installation repo locally by `git clone https://github.com/Sushants-Git/Deja-Vu-Installation-Files.git`
 
-2. Go to `chrome://extensions/`, enable developer mode (top right), and click "Load unpacked". Select the cloned/extracted File from the dialog which appears and click "Select Folder".
+![image](https://github.com/Sushants-Git/Deja-Vu/assets/100516354/648d5738-51a8-4005-af92-8d7488be3d00)
 
-## Running the Project
+⚠️  NOTE : We are cloning the Installation repo and not this repo.
+
+OR
+
+Download the ZIP files
+- Go to [Deja-Vu-Installation-Files ](https://github.com/Sushants-Git/Deja-Vu-Installation-Files)
+- Click on "Code" > "Download ZIP"
+
+![image](https://github.com/Sushants-Git/Deja-Vu/assets/100516354/9b6ae887-4746-486e-8bab-33719ffc7b09)
+
+2. Go to `Chrome`(or any Chromium-based browsers like Brave, Opera etc.) and click on the `Kebab Menu` on the top-right and go to "Extensions" > "Manage Extensions".
+
+![screenshot-20231001-030752Z-all](https://github.com/Sushants-Git/Youtube-Controller/assets/100516354/62ecce48-9f20-45d7-8516-a89e4032cf79)
+
+3. Switch **ON** the `Developer Mode` at the top-right corner.
+
+![image](https://github.com/Sushants-Git/Deja-Vu/assets/100516354/5768cde9-056f-449e-8ac1-921bb6b8b49a)
+
+4. Click on `Load Unpack` at the top-left corner
+
+![image](https://github.com/Sushants-Git/Deja-Vu/assets/100516354/8c409fd8-7efa-460f-bba6-4fbb33ef5a25)
+
+5. Choose the directory in which you cloned the repo and click Open
+
+![image](https://github.com/Sushants-Git/Deja-Vu/assets/100516354/cdc76929-cd9c-4cf4-b4a3-e98813d831b3)
+
+🎉 The extension has been installed.
+
+## Running the Project Locally
 
 1. Clone the repo and enter the project directory:
    ```bash
