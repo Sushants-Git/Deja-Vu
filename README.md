@@ -42,6 +42,9 @@ Download the ZIP files
 
 🎉 The extension has been installed.
 
+![image](https://github.com/Sushants-Git/Deja-Vu/assets/100516354/4308a12f-05d2-4f21-b90e-0318c0b82649)
+
+
 ## Running the Project Locally
 
 1. Clone the repo and enter the project directory:
