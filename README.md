@@ -21,6 +21,7 @@ OR
 Download the ZIP files
 - Go to [Deja-Vu-Installation-Files ](https://github.com/Sushants-Git/Deja-Vu-Installation-Files)
 - Click on "Code" > "Download ZIP"
+- Unzip the file using any tool like [WinRAR](https://www.win-rar.com/start.html?&L=0)
 
 ![image](https://github.com/Sushants-Git/Deja-Vu/assets/100516354/9b6ae887-4746-486e-8bab-33719ffc7b09)
 
