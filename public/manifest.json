@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "extension",
-  "description": "Deja Vu",
+  "name": "Deja Vu",
+  "description": "Find your bookmarks using AI",
   "version": "1.0.0",
   "permissions": [
     "activeTab",
