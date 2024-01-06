@@ -1,6 +1,6 @@
 # ![Group 6(1)](https://github.com/Sushants-Git/Deja-Vu/assets/100516354/e80b1a1c-1d70-4911-ac56-8c2e8ce0c013) Deja Vu - An AI powered bookmarker
 
-A Chrome Extension which offers a seamless way to find bookmarks.
+An powered Chrome Extension which offers a seamless way to find bookmarks.
 
 ## How it works
 
